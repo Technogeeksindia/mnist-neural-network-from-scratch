@@ -265,7 +265,7 @@ if __name__ == "__main__":
     plt.tight_layout()
     plt.show()
     
-    # Show some predictions
+    # Show some predictions as examples
     print("\n🔍 Let's see some predictions...")
     visualize_predictions(network, X_train, np.argmax(y_train, axis=1))
     
